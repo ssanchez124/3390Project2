@@ -18,7 +18,7 @@ const aboutapp = () => {
             
         </Text>
         
-        <LinkButton href="/sylasSP" style={styles.linkButton}> Skills / Project ideas</LinkButton>
+        <LinkButton href="/" style={styles.linkButton}> Home page</LinkButton>
       </View>
     </ScrollView>
   )

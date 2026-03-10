@@ -3,6 +3,16 @@ import React from 'react'
 import { Link } from 'expo-router'
 import LinkButton from './LinkButton'
 
+/*
+-Professional summary
+
+-Technical skills
+
+-Education
+
+-Experience (work/projects/leadership)
+*/
+
 const GoalsPage = () => {
     return (
         <ScrollView style={{ backgroundColor: '#ADD8E6' }} contentContainerStyle={styles.scrollContainer}>
@@ -46,11 +56,13 @@ const styles = StyleSheet.create({
         fontSize: 18,
         fontWeight: 'bold',
         marginBottom: 8,
+        textAlign: 'center',
     },
     goalText: {
     fontSize: 16,
     lineHeight: 20,
-    fontWeight: 'normal', //Adjusted so text wouldn't be bold
+    fontWeight: 'normal',
+    textAlign: 'center',
     },
     linkButton: {
     backgroundColor: '#4CAF50',
