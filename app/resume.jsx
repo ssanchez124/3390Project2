@@ -4,13 +4,13 @@ import { Link } from 'expo-router'
 import LinkButton from './LinkButton'
 
 /*
--Professional summary
++Professional summary
 
--Technical skills
++Technical skills
 
--Education
++Education
 
--Experience (work/projects/leadership)
++Experience (work/projects/leadership)
 */
 
 const GoalsPage = () => {
@@ -22,6 +22,16 @@ const GoalsPage = () => {
                     
                         <Text style={styles.goalTitle}>Coding languages</Text>
                         <Text style={styles.goalText}>Python, Javascript, C++, React Native, Unix.{"\n\n"}</Text>
+
+                        <Text style={styles.goalTitle}>Education</Text>
+                        <Text style={styles.goalText}>
+                            California State University, Bakersfield - 1 year
+                            Sonoma State University - 2 years{"\n\n"}
+                        </Text>
+
+                        <Text style={styles.goalTitle}>Experience</Text>
+                        <Text style={styles.goalText}> 3 years of coding experience, with various small projects.{"\n\n"}</Text>
+
                     
                 
                 <LinkButton href="/">Back to Home Page</LinkButton>
