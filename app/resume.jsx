@@ -3,6 +3,16 @@ import React from 'react'
 import { Link } from 'expo-router'
 import LinkButton from './LinkButton'
 
+/*
++Professional summary
+
++Technical skills
+
++Education
+
++Experience (work/projects/leadership)
+*/
+
 const GoalsPage = () => {
     return (
         <ScrollView style={{ backgroundColor: '#ADD8E6' }} contentContainerStyle={styles.scrollContainer}>
@@ -12,6 +22,16 @@ const GoalsPage = () => {
                     
                         <Text style={styles.goalTitle}>Coding languages</Text>
                         <Text style={styles.goalText}>Python, Javascript, C++, React Native, Unix.{"\n\n"}</Text>
+
+                        <Text style={styles.goalTitle}>Education</Text>
+                        <Text style={styles.goalText}>
+                            California State University, Bakersfield - 1 year
+                            Sonoma State University - 2 years{"\n\n"}
+                        </Text>
+
+                        <Text style={styles.goalTitle}>Experience</Text>
+                        <Text style={styles.goalText}> 3 years of coding experience, with various small projects.{"\n\n"}</Text>
+
                     
                 
                 <LinkButton href="/">Back to Home Page</LinkButton>
@@ -46,11 +66,13 @@ const styles = StyleSheet.create({
         fontSize: 18,
         fontWeight: 'bold',
         marginBottom: 8,
+        textAlign: 'center',
     },
     goalText: {
     fontSize: 16,
     lineHeight: 20,
-    fontWeight: 'normal', //Adjusted so text wouldn't be bold
+    fontWeight: 'normal',
+    textAlign: 'center',
     },
     linkButton: {
     backgroundColor: '#4CAF50',
